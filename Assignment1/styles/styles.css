@@ -1,3 +1,16 @@
+ body {
+    background-color: #ffefd5;
+    color: #808000;
+ }
  h1 {
-	color: blue;
+	color: #808000;
+}
+h2 {
+    color: #808000;
+}
+p {
+    color: #808000;
+}
+a {
+    color: #808000;
 }
