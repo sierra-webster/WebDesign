@@ -14,3 +14,16 @@ p {
 a {
     color: #dfdfd0;
 }
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.about-container p{
+    max-width: 350px;
+    text-align: left;
+}
