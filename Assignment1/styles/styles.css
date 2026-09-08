@@ -3,8 +3,8 @@
     src: url('fonts/fastelar.ttf') format('truetype');
 } 
 @font-face {
-    font-family: 'Champignon';
-    src: url('fonts/Champignon.ttf') format('truetype');
+    font-family: 'champignon';
+    src: url('fonts/champignon.ttf') format('truetype');
 }
  body {
     background-color: #1d020a;
@@ -17,7 +17,7 @@
 }
 h2 {
     color: #83bac9;
-    font-family: 'Champignon', cursive;
+    font-family: 'champignon', cursive;
 }
 p {
     color: #dfdfd0;
