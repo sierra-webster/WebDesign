@@ -46,15 +46,15 @@ a {
   justify-content: space-around;
   align-items: center;
   max-width: 1000px;
-  margin: 60px auto 30px auto;
+  margin: 100px auto 50px auto;
   padding: 0 20px;
 }
 .footer-bar a {
   color: #dfdfd0;
   text-decoration: none;
   font-family: 'fastelar', sans-serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
   transition: color 0.2s ease;
 }
 .footer-bar a:hover {
