@@ -1,9 +1,15 @@
+ @font-face {
+    font-family: 'fastelar';
+    src: url('fonts/fastelar.ttf') format('truetype');
+ }
  body {
     background-color: #1d020a;
     color: #dfdfd0;
  }
  h1 {
 	color: #83bac9;
+    font-size: 36px;
+    font-family: 'fastelar', sans-serif;
 }
 h2 {
     color: #83bac9;
