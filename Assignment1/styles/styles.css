@@ -1,7 +1,11 @@
  @font-face {
     font-family: 'fastelar';
     src: url('fonts/fastelar.ttf') format('truetype');
- }
+ 
+@font-face {
+    font-family: 'Champignon';
+    src: url('fonts/Champignon.ttf') format('truetype');
+}
  body {
     background-color: #1d020a;
     color: #dfdfd0;
@@ -13,6 +17,7 @@
 }
 h2 {
     color: #83bac9;
+    font-family: 'Champignon', sans-serif;
 }
 p {
     color: #dfdfd0;
