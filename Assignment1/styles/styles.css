@@ -52,7 +52,7 @@ a {
 .footer-bar a {
   color: #dfdfd0;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'fastelar', sans-serif;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
   transition: color 0.2s ease;
