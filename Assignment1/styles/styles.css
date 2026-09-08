@@ -1,10 +1,10 @@
  @font-face {
     font-family: 'fastelar';
-    src: url('fonts/fastelar.ttf') format('truetype');
+    src: url('../fonts/fastelar.ttf') format('truetype');
 } 
 @font-face {
     font-family: 'champignon';
-    src: url('fonts/champignon.ttf') format('truetype');
+    src: url('../fonts/champignon.ttf') format('truetype');
 }
  body {
     background-color: #1d020a;
