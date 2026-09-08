@@ -17,7 +17,7 @@
 }
 h2 {
     color: #83bac9;
-    font-size: 48px;
+    font-size: 36px;
     font-family: 'geraldine', cursive;
 }
 p {
@@ -38,7 +38,7 @@ a {
 .about-container p{
     max-width: 350px;
     text-align: left;
-    font-size: 1.125rem; 
+    font-size: 26px; 
     line-height: 1.6;
 }
 .footer-bar {
