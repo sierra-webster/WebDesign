@@ -3,8 +3,8 @@
     src: url('fonts/fastelar.ttf') format('truetype');
 } 
 @font-face {
-    font-family: 'champignon';
-    src: url('fonts/champignon.ttf') format('truetype');
+    font-family: 'geraldine';
+    src: url('fonts/geraldine.ttf') format('truetype');
 }
  body {
     background-color: #1d020a;
@@ -18,7 +18,7 @@
 h2 {
     color: #83bac9;
     font-size: 48px;
-    font-family: 'champignon', cursive;
+    font-family: 'geraldine', cursive;
 }
 p {
     color: #dfdfd0;
