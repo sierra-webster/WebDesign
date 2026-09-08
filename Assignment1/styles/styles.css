@@ -8,7 +8,7 @@
 }
  body {
     background-color: #1d020a;
-    color: #dfdfd0;
+    color: #a35e6b;
  }
  h1 {
 	color: #9165a8;
@@ -16,15 +16,15 @@
     font-family: 'fastelar', sans-serif;
 }
 h2 {
-    color: #9165a8;
+    color: #a35e6b;
     font-size: 36px;
     font-family: 'geraldine', cursive;
 }
 p {
-    color: #dfdfd0;
+    color: #a35e6b;
 }
 a {
-    color: #c26a9a;
+    color: #a35e6b;
 }
 .about-container {
     display: flex;
