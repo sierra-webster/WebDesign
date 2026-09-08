@@ -26,4 +26,6 @@ a {
 .about-container p{
     max-width: 350px;
     text-align: left;
+    font-size: 1.125rem; 
+    line-height: 1.6;
 }
