@@ -60,3 +60,9 @@ a {
 .footer-bar a:hover {
   color: #83bac9;
 }
+li {
+  list-style-type: none;
+  color: navy;
+  display: inline-block;
+  font-family: Georgia, serif;
+}
