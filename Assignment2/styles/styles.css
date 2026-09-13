@@ -1,0 +1,62 @@
+ @font-face {
+    font-family: 'fastelar';
+    src: url('fonts/fastelar.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'geraldine';
+    src: url('fonts/geraldine.ttf') format('truetype');
+}
+ body {
+    background-color: #1d020a;
+    color: #a35e6b;
+ }
+ h1 {
+	color: #9165a8;
+    font-size: 68px;
+    font-family: 'fastelar', sans-serif;
+}
+h2 {
+    color: #9165a8;
+    font-size: 36px;
+    font-family: 'geraldine', cursive;
+}
+p {
+    color: #a35e6b;
+}
+a {
+    color: #a35e6b;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.about-container p{
+    max-width: 350px;
+    text-align: left;
+    font-size: 26px; 
+    line-height: 1.6;
+}
+.footer-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 100px auto 50px auto;
+  padding: 0 20px;
+}
+.footer-bar a {
+  color: #dfdfd0;
+  text-decoration: none;
+  font-family: 'fastelar', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  transition: color 0.2s ease;
+}
+.footer-bar a:hover {
+  color: #83bac9;
+}
