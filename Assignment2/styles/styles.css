@@ -6,7 +6,11 @@
     font-family: 'winterlady';
     src: url('fonts/winterlady.ttf') format('truetype');
 }
- body {
+@font-face {
+    font-family: 'boldbodytext';
+    src: url('fonts/boldbodytext.ttf') format('truetype');
+}
+body {
     background-color: #1d020a;
     color: #a35e6b;
  }
@@ -22,6 +26,7 @@ h2 {
 }
 p {
     color: #a35e6b;
+    font-family: 'boldbodytext', serif;
 }
 a {
     color: #a35e6b;
