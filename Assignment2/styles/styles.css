@@ -3,13 +3,30 @@
     src: url('fonts/fastelar.ttf') format('truetype');
 } 
 @font-face {
-    font-family: 'geraldine';
-    src: url('fonts/geraldine.ttf') format('truetype');
+    font-family: 'winterlady';
+    src: url('font/winterlady.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'boldbodytext';
+    src: url('font/boldbodytext.ttf') format('truetype');
 }
  body {
     background-color: #1d020a;
     color: #a35e6b;
  }
+nav ul {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 30px; 
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;    
+    color: #a35e6b;           
+
  h1 {
 	color: #9165a8;
     font-size: 68px;
@@ -18,10 +35,11 @@
 h2 {
     color: #9165a8;
     font-size: 36px;
-    font-family: 'geraldine', cursive;
+    font-family: 'winterlady', cursive;
 }
 p {
     color: #a35e6b;
+    font-family: 'boldbodytext', sans-serif;
 }
 a {
     color: #a35e6b;
