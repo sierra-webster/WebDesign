@@ -21,7 +21,6 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav a {
     font-size: 20px;
     text-decoration: none;    
@@ -52,18 +51,27 @@ a {
     max-width: 900px;
     margin: 40px auto;
 }
-
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
 .about-container img {
-    max-width: 450px;
+    width: 450px;
     height: auto;
+    display: block;
 }
 .about-container p {
-    max-width: 320px;
-    margin: 0;
-    font-size: 24px;
+    max-width: 450px;
+    text-align: left;
+    font-size: 26px;
     line-height: 1.6;
     color: #a35e6b;
     font-family: 'boldbodytext', sans-serif;
+    margin: 0;
 }
 .footer-bar {
   display: flex;
