@@ -85,3 +85,16 @@ nav a {
 nav a:hover {
     color: #9165a8;
 }
+.social-links {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.social-links p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    font-size: 22px;
+}
