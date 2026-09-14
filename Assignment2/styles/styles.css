@@ -65,3 +65,23 @@ a {
 .footer-bar a:hover {
   color: #83bac9;
 }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 0;
+    margin: 25px 50px 0 0;
+}
+nav a {
+    color: #a35e6b;
+    text-decoration: none;
+    font-family: 'boldbodytext', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #9165a8;
+}
