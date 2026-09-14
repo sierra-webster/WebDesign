@@ -3,8 +3,8 @@
     src: url('fonts/fastelar.ttf') format('truetype');
 } 
 @font-face {
-    font-family: 'geraldine';
-    src: url('fonts/geraldine.ttf') format('truetype');
+    font-family: 'winterlady';
+    src: url('fonts/winterlady.ttf') format('truetype');
 }
  body {
     background-color: #1d020a;
@@ -18,7 +18,7 @@
 h2 {
     color: #9165a8;
     font-size: 36px;
-    font-family: 'geraldine', cursive;
+    font-family: 'winterlady', cursive;
 }
 p {
     color: #a35e6b;
