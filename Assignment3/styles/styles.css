@@ -11,9 +11,13 @@
     src: url('fonts/boldbodytext.ttf') format('truetype');
 }
 body {
-    background-color: #1d020a;
-    color: #a35e6b;
- }
+    background-color: #440518;
+    border-bottom: 2px solid #9165a8;
+    padding: 15px 0;
+    position: sticky;
+    top: 0 ;
+    z-index: 1000;
+}
  h1 {
 	color: #9165a8;
     font-size: 90px;
@@ -66,7 +70,11 @@ a {
 .footer-bar a:hover {
   color: #83bac9;
 }
-
+.nav-bar {
+    width: 100%;
+    background-color: #1d020a;
+    padding: 10px 0;
+}
 nav ul {
     list-style-type: none;
     display: flex;
