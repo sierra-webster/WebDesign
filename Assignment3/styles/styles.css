@@ -120,3 +120,8 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+.about-container {
+    border: 2px solid #440518;
+    padding: 20px;
+    border-radius: 8px;
+}
