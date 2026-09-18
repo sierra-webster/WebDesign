@@ -125,13 +125,6 @@ nav a:hover {
     padding: 20px;
     border-radius: 8px;
 }
-.hero {
-    border: 2px solid #e891ab;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 50px;
-}
 .work-container {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -151,5 +144,6 @@ nav a:hover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 12px;
 }
