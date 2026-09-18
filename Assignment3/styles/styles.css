@@ -125,3 +125,10 @@ nav a:hover {
     padding: 20px;
     border-radius: 8px;
 }
+.hero {
+    border: 2px solid #e891ab;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+}
