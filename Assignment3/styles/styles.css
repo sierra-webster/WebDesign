@@ -124,7 +124,7 @@ nav a:hover {
     padding: 15px;
     max-width: 250px;
     text-align: center;
-    background-color: #a35e6b;
+    background-color: #9165a8;
     Box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .card img {
@@ -139,7 +139,7 @@ nav a:hover {
 }
 .card p {
     font-size: 0.9rem;
-    color: #e4b9c6;
+    color: #e8dee1;
 }
 .footer-bar p {
     font-family: Arial, Helvetica, sans-serif;
