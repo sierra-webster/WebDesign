@@ -89,7 +89,6 @@ nav a {
     font-size: 24px;
     letter-spacing: 1px;
 }
-
 nav a:hover {
     color: #9165a8;
 }
@@ -137,7 +136,7 @@ nav a:hover {
     font-size: 18px;
 }
 .Hero {
-    border: 2px solid #;
+    border: 2px solid #440518;
     border-radius: 12px;
     padding: 24px;
     max-width: 400px;
