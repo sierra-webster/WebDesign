@@ -68,7 +68,7 @@ a {
 }
 .nav-bar {
     width: 100%;
-    background-color: #1d020a;
+    background-color: #a35e6b;
     border-bottom: 2px solid #9165a8;
     position: sticky;
     top: 0 ;
@@ -83,7 +83,7 @@ nav ul {
     margin: 0;
 }
 nav a {
-    color: #a35e6b;
+    color: #dfdfd0;
     text-decoration: none;
     font-family: 'boldbodytext', sans-serif;
     font-size: 24px;
