@@ -206,13 +206,53 @@ body {
   font-style: normal;
 }
 
-.form-v2 {
+.form-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   background-color: #f9f7f1;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  width: 75%;
-  margin: 0 auto;
+}
+
+.form-v2 {
+  flex: 1;                 
+  padding: 30px;
+  background-color: #f9f7f1; 
+  border: none;             
+  width: 100%;
+}
+
+.form-image {
+  flex: 1;                 
+  display: flex;
+}
+
+.form-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+  display: block;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .form-image {
+        height: 250px;          
+    }
+}
+  .form-container {
+    flex-direction: column;
+    width: 90%;
+}
+
+  .form-image {
+    height: 250px;          
 }
 
 .form-v2 fieldset {
