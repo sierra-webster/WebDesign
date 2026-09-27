@@ -205,3 +205,56 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.form-v2 {
+  background-color: #f9f7f1;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.form-v2 fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form-v2 legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form-v2 label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-v2 input[type="text"],
+.form-v2 input[type="email"],
+.form-v2 select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-v2 button {
+  margin-top: 20px;
+  background-color: #5a3e36;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-v2 button:hover {
+  background-color: #7a564f;
+}
