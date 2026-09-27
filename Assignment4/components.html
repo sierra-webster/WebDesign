@@ -11,10 +11,32 @@
 </head>
 
 <body>
+<!-- ------------------------------------------------ -->
+<!-- ------------------- TEST AREA---------------------- -->
+<!-- ------------------------------------------------ -->
 <form class="...">
-  <label>Submit Your Favorite Poem:</label>
-  <input type="text" name="favorite-poem" placeholder="Type your favorite here">
-  <button type="submit">Submit</button>
+  <fieldset>
+    <legend>Sign Up for More Updates from our Studio!</legend>
+      
+    <label>First Name:</label>
+    <input type="text" name="First-Name" placeholder="Frank">
+    <label>Last Name:</label>
+    <input type="text" name="Last-Name" placeholder="FencePost">
+    
+    <label>Email Address:</label>
+    <input type="email" name="email" placeholder="e.g. joysmith@gmail.com">
+    
+    <label>Country:</label> <!-- Dropdown label -->
+    <select name="country">
+      <option value="us">United States</option>
+      <option value="ca">Canada</option>
+      <option value="uk">United Kingdom</option>
+      <option value="au">Australia</option>
+      <option value="other">Other</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </fieldset>
 </form>
 
 <!-- ------------------------------------------------ -->
