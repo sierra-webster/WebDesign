@@ -11,7 +11,7 @@
     src: url('fonts/boldbodytext.ttf') format('truetype');
 }
 
-.card-test {
+.card-v2 {
     background-color: #2b101d;
     border: 1px solid #440518;
     border-radius: 12px;
@@ -21,12 +21,12 @@
     color: #ffffff;
     text-align: center;
 }
-.card-image {
+.card-v2 .card-image {
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
 }
-.card-test .card-button {
+.card-v2 .card-button {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
