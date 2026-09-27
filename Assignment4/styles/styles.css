@@ -246,15 +246,6 @@ body {
         height: 250px;          
     }
 }
-  .form-container {
-    flex-direction: column;
-    width: 90%;
-}
-
-  .form-image {
-    height: 250px;          
-}
-
 .form-v2 fieldset {
   border: none;
   padding: 0;
