@@ -103,6 +103,7 @@ a {
 nav ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     gap: 50px;
     padding: 15px 50px;
