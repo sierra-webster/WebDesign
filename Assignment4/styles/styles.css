@@ -118,6 +118,16 @@ nav a {
 nav a:hover {
     color: #9165a8;
 }
+.nav-icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    object-fit: contain;
+    transform: transform o.2s ease;
+}
+.nav-icon:hover {
+    transform: scale(1.2);
+}
 .social-links {
     margin-top: 70px;
     text-align: center;
