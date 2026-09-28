@@ -37,7 +37,7 @@
 }
 
 body {
-    background-color: #b4ebb0;
+    background-color: #5e9fbc;
     color: #a35e6b;
 }
  h1 {
@@ -82,7 +82,7 @@ a {
 
 }
 .footer-bar a {
-  color: #dfdfd0;
+  color: #de7e18f7;
   text-decoration: none;
   font-family: 'fastelar', sans-serif;
   font-size: 1.25rem;
@@ -90,12 +90,12 @@ a {
   transition: color 0.2s ease;
 }
 .footer-bar a:hover {
-  color: #83bac9;
+  color: #3f0505;
 }
 .nav-bar {
     width: 100%;
-    background-color: #440518;
-    border-bottom: 2px solid #9165a8;
+    background-color: #52631c;
+    border-bottom: 3px solid #d1a7c2;
     position: sticky;
     top: 0 ;
     z-index: 1000;
@@ -110,7 +110,7 @@ nav ul {
     margin: 0;
 }
 nav a {
-    color: #e9c9d5;
+    color: #e9c9d5e4;
     text-decoration: none;
     font-family: 'boldbodytext', sans-serif;
     font-size: 24px;
@@ -223,14 +223,14 @@ body {
   max-width: 900px;
   margin: 40px auto;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  background-color: #000000a3;
+  box-shadow: 0 10px 30px rgba(35, 64, 110, 0.3);
+  background-color: #000000;
 }
 
 .form-v2 {
   flex: 1;                 
   padding: 30px;
-  background-color: #000000a3; 
+  background-color: #000000; 
   border: none;             
   width: 100%;
 }
@@ -288,8 +288,8 @@ body {
 
 .form-v2 button {
   margin-top: 20px;
-  background-color: #5a3e36;
-  color: white;
+  background-color: #d05f40;
+  color: rgb(215, 214, 209);
   padding: 10px 20px;
   font-size: 1rem;
   border: none;
@@ -298,5 +298,5 @@ body {
 }
 
 .form-v2 button:hover {
-  background-color: #7a564f;
+  background-color: #4f824f;
 }
