@@ -37,25 +37,25 @@
 }
 
 body {
-    background-color: #f0f0f0;
-    color: #341219;
+    background-color: #f2ebdd;
+    color: #ace10c;
 }
  h1 {
-	color: #a40000;
+	color: #4d2639;
     font-size: 90px;
     font-family: 'fastelar', sans-serif;
 }
 h2 {
-    color: #a40000;
+    color: #4d2639;
     font-size: 36px;
     font-family: 'winterlady', cursive;
 }
 p {
-    color: #000000;
+    color: #292526;
     font-family:  Arial, Helvetica, sans-serif;
 }
 a {
-    color: #000000;
+    color: #292526;
 }
 .about-container {
     display: flex;
@@ -82,7 +82,7 @@ a {
 
 }
 .footer-bar a {
-  color: #063a14f7;
+  color: #7c8e5e;
   text-decoration: none;
   font-family: 'fastelar', sans-serif;
   font-size: 1.25rem;
@@ -94,8 +94,8 @@ a {
 }
 .nav-bar {
     width: 100%;
-    background-color: #b3ad9b;
-    border-bottom: 3px solid #627620;
+    background-color: #4d2639;
+    border-bottom: 3px solid #a45f64;
     position: sticky;
     top: 0 ;
     z-index: 1000;
@@ -110,14 +110,14 @@ nav ul {
     margin: 0;
 }
 nav a {
-    color: #410000;
+    color: #7c8e5e;
     text-decoration: none;
     font-family: 'boldbodytext', sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
 }
 nav a:hover {
-    color: #627620;
+    color: #f2ebdd;
 }
 .nav-icon {
     width: 28px;
@@ -156,12 +156,12 @@ nav a:hover {
     margin: 40px auto;
 }
 .card{
-    border: 1px solid #b3ad9b;
+    border: 1px solid #78806a;
     border-radius: 8px;
     padding: 15px;
     max-width: 250px;
     text-align: center;
-    background-color: #807c71;
+    background-color: #292526;
     Box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .card img {
@@ -176,14 +176,14 @@ nav a:hover {
 }
 .card p {
     font-size: 0.9rem;
-    color: #edededf3 ;
+    color: #f2ebdd ;
 }
 .footer-bar p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 .about-container {
-    border: 2px solid #820006f3;
+    border: 2px solid #a45f64;
     padding: 20px;
     border-radius: 8px;
 }
@@ -192,7 +192,7 @@ nav a:hover {
     font-size: 18px;
 }
 .Hero {
-    border: 2px solid #820006f3;
+    border: 2px solid #4d2639;
     border-radius: 12px;
     padding: 24px;
     max-width: 400px;
@@ -224,13 +224,13 @@ body {
   margin: 40px auto;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(35, 64, 110, 0.3);
-  background-color: #b3ad9b;
+  background-color: #7c8e5e;
 }
 
 .form-v2 {
   flex: 1;                 
   padding: 30px;
-  background-color: #b3ad9b; 
+  background-color: #7c8e5e; 
   border: none;             
   width: 100%;
 }
@@ -288,8 +288,8 @@ body {
 
 .form-v2 button {
   margin-top: 20px;
-  background-color: #627620;
-  color: #ffa6be;
+  background-color: #4d2639;
+  color: #f2ebdd;
   padding: 10px 20px;
   font-size: 1rem;
   border: none;
@@ -298,5 +298,5 @@ body {
 }
 
 .form-v2 button:hover {
-  background-color: #8ea24d;
+  background-color: #a45f64;
 }
