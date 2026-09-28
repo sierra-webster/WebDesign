@@ -110,14 +110,14 @@ nav ul {
     margin: 0;
 }
 nav a {
-    color: #ffa6be;
+    color: #410000;
     text-decoration: none;
     font-family: 'boldbodytext', sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
 }
 nav a:hover {
-    color: #74c3d7;
+    color: #627620;
 }
 .nav-icon {
     width: 28px;
