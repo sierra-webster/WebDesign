@@ -38,7 +38,7 @@
 
 body {
     background-color: #f2ebdd;
-    color: #ace10c;
+    color: #4d2639;
 }
  h1 {
 	color: #4d2639;
@@ -161,7 +161,7 @@ nav a:hover {
     padding: 15px;
     max-width: 250px;
     text-align: center;
-    background-color: #292526;
+    background-color: #4d2639;
     Box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .card img {
