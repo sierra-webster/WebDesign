@@ -82,7 +82,7 @@ a {
 
 }
 .footer-bar a {
-  color: #0e2c16f7;
+  color: #063a14f7;
   text-decoration: none;
   font-family: 'fastelar', sans-serif;
   font-size: 1.25rem;
@@ -94,8 +94,8 @@ a {
 }
 .nav-bar {
     width: 100%;
-    background-color: #52631c;
-    border-bottom: 3px solid #74c3d7;
+    background-color: #74c3d7;
+    border-bottom: 3px solid #627620;
     position: sticky;
     top: 0 ;
     z-index: 1000;
