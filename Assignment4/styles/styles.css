@@ -360,3 +360,15 @@ body {
 .table-container a:hover {
   opacity: 0.8;
 }
+
+.map-button-container {
+  text-align: center;
+  margin: 25px auto;
+  width: 100%;
+  display: block;
+}
+
+.map-button-container label {
+  cursor: pointer;
+  display: inline-block;
+}
