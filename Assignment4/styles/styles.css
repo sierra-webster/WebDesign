@@ -94,7 +94,7 @@ a {
 }
 .nav-bar {
     width: 100%;
-    background-color: #74c3d7;
+    background-color: #b3ad9b;
     border-bottom: 3px solid #627620;
     position: sticky;
     top: 0 ;
@@ -156,12 +156,12 @@ nav a:hover {
     margin: 40px auto;
 }
 .card{
-    border: 1px solid #74c3d7;
+    border: 1px solid #b3ad9b;
     border-radius: 8px;
     padding: 15px;
     max-width: 250px;
     text-align: center;
-    background-color: #ffd4e0;
+    background-color: #807c71;
     Box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .card img {
@@ -176,7 +176,7 @@ nav a:hover {
 }
 .card p {
     font-size: 0.9rem;
-    color: #820006f3 ;
+    color: #edededf3 ;
 }
 .footer-bar p {
     font-family: Arial, Helvetica, sans-serif;
@@ -224,13 +224,13 @@ body {
   margin: 40px auto;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(35, 64, 110, 0.3);
-  background-color: #74c3d7;
+  background-color: #b3ad9b;
 }
 
 .form-v2 {
   flex: 1;                 
   padding: 30px;
-  background-color: #74c3d7; 
+  background-color: #b3ad9b; 
   border: none;             
   width: 100%;
 }
