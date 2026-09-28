@@ -300,3 +300,13 @@ body {
 .form-v2 button:hover {
   background-color: #a45f64;
 }
+
+.map-container {
+  display: none;
+  max-width: 500px;
+  margin: 15px auto;
+}
+
+#map-toggle:checked + .map-container {
+  display: block;
+}
