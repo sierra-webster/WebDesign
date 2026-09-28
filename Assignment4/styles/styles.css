@@ -310,3 +310,26 @@ body {
 #map-toggle:checked + .map-container {
   display: block;
 }
+
+.announce-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.announcement-card {
+  display: none;
+  background-color: #4d2639;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 15px auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.announcement-card.active {
+  display: block;
+}
