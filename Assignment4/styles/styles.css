@@ -124,6 +124,7 @@ nav a:hover {
     height: 28px;
     vertical-align: middle;
     object-fit: contain;
+    filter: invert(1);
     transform: transform o.2s ease;
 }
 .nav-icon:hover {
