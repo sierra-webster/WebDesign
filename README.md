@@ -8,7 +8,7 @@
 ### Which Google Fonts did you use and for what purposes?
 #### I used Montserrat for my main content so that clear and legibal for users. And I used Itaiana for H3 content to tigh the main tile font my content.
 
-### Structure & Organization
+## Structure & Organization
 
 ### What information does your table organize, and why was a table appropriate?
 #### My table is being used in my Social Media & Info page to better organize my social media platforms, handles, and links. It helped provide structure that it was lacking before. Now it is more easy to read and easy for users to scan and locate information. 
