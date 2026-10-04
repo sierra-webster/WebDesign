@@ -378,3 +378,19 @@ body {
   cursor: pointer;
   display: inline-block;
 }
+
+.page-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.sidebar-graphic img {
+  width: 120px; /* Adjust graphic width as needed */
+  height: auto;
+}
