@@ -38,7 +38,7 @@
 
 body {
     background-color: #fff7e6;
-    color: #79a0c9;
+    color: #b46a72;
 }
  h1 {
 	color: #b46a72;
@@ -96,7 +96,7 @@ a {
   transition: color 0.2s ease;
 }
 .footer-bar a:hover {
-  color: #a9b7c6;
+  color: #79a0c9;
 }
 .nav-bar {
     width: 100%;
@@ -200,7 +200,7 @@ nav a:hover {
     font-size: 16px;
 }
 .about-container {
-    border: 2px solid #e80615;
+    border: 2px solid #b46a72;
     padding: 20px;
     border-radius: 8px;
 }
@@ -209,7 +209,7 @@ nav a:hover {
     font-size: 18px;
 }
 .Hero {
-    border: 2px solid #4d2639;
+    border: 2px solid #79a0c9;
     border-radius: 12px;
     padding: 24px;
     max-width: 400px;
@@ -241,7 +241,7 @@ body {
   margin: 40px auto;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(35, 64, 110, 0.3);
-  background-color: #a8b58a;
+  background-color: #79a0c9;
 }
 
 .form-v2 {
@@ -338,7 +338,7 @@ body {
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #79a0c9;
+  background-color: #19283c;
   color: #f2ebdd;
   border-radius: 8px;
   overflow: hidden;
