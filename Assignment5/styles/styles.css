@@ -338,7 +338,7 @@ body {
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #19283c;
+  background-color: #24466a;
   color: #f2ebdd;
   border-radius: 8px;
   overflow: hidden;
@@ -354,7 +354,7 @@ body {
 }
 
 .table-container th {
-  background-color: #24466a;
+  background-color: #19283c;
   font-weight: bold;
 }
 
