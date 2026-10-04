@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 152.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf0000;
+      }
+
+      .cls-2 {
+        fill: #3c7cea;
+      }
+
+      .cls-3 {
+        fill: #efc547;
+      }
+    </style>
+  </defs>
+  <path id="svg_27" data-name="svg 27" d="M0,152.32L93,1.32l93,151H0Z"/>
+  <path id="svg_28" data-name="svg 28" class="cls-3" d="M6.38,152.22L91.38,13.22l85,139H6.38Z"/>
+  <path id="svg_29" data-name="svg 29" d="M123.22,2.15l-1.63,49.75L88.52,2.15h34.7Z"/>
+  <path id="svg_31" data-name="svg 31" d="M62.81,2.21l30.96-.58-30.07,47.84-.89-47.26Z"/>
+  <path id="svg_32" data-name="svg 32" d="M27.3,50.2l36.4-.73-35.3,59.95-1.1-59.22Z"/>
+  <path id="svg_33" data-name="svg 33" d="M0,106.79l30.74-.14L0,152.32v-45.53Z"/>
+  <path id="svg_34" data-name="svg 34" d="M157.4,49.47l-.34,57-39.95-57h40.29Z"/>
+  <path id="svg_35" data-name="svg 35" d="M186.41,106.65l-.41,45.67-28.95-45.85,29.36.18Z"/>
+  <rect id="svg_36" data-name="svg 36" class="cls-2" x="91.37" y="66.42" width="16" height="86"/>
+  <rect id="svg_37" data-name="svg 37" class="cls-2" x="107.37" y="99.42" width="24" height="53"/>
+  <path id="svg_38" data-name="svg 38" class="cls-2" d="M131.37,128.03h21v24h-21v-24Z"/>
+  <rect id="svg_39" data-name="svg 39" class="cls-1" x="75.38" y="66.42" width="16" height="86"/>
+  <rect id="svg_40" data-name="svg 40" class="cls-1" x="52.45" y="99.42" width="22.93" height="53"/>
+  <rect id="svg_41" data-name="svg 41" class="cls-1" x="35.3" y="128.03" width="21" height="24"/>
+</svg>

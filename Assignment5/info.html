@@ -1,0 +1,141 @@
+<!-- HTML document structure goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Stylesheet linking.-->
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media & Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@200..800&family=Montserrat:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+<!-- Navigation bar -->
+  <div class="nav-bar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">My Work</a></li>
+        <li>
+          <a href="info.html" title="Social Media & Info">
+            <img src="images/social.svg" alt="Social Media & Info" class="nav-icon">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+<!-- This Be a Heading -->
+<header>
+  <h1 style="text-align: center;">Social Media & Info</h1>
+</header>
+<!-- Social Media Links, need editing on toktok logo, and bottom tag line -->
+<main>
+    <section class="table-container">
+      <h2>Connect With Me</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Handle</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="images/instagram.png" alt="Instagram" class="social-logo">
+              Instagram
+            </td>
+            <td>@sierraminesinger</td>
+            <td>
+              <a href="https://www.instagram.com/sierraminesinger/" target="_blank">Visit Page</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/tiktok.png" alt="TikTok" class="social-logo">
+              TikTok
+            </td>
+            <td>@sierra.minesinger</td>
+            <td>
+              <a href="https://www.tiktok.com/@sierra.minesinger" target="_blank">Visit Page</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/email.svg" alt="Email" class="social-logo">
+              Email
+            </td>
+            <td>sierra.minesinger@gmail.com</td>
+            <td>
+              <a href="mailto:sierra.minesinger@gmail.com">Send Email</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+<!-- Bottom tag line needs editing and to more styling -->
+    <div class="Hero">
+      <img src="images/socialmedia.jpg" alt="Selfie" class="hero-img">
+      <em>Just a Native girl Creator didn't give up on.</em>
+    </div>
+<!-- Map Button things-->
+<p class="social-link">  
+  <label for="map-toggle">
+    <img src="images/location.svg" alt="Location" class="social-logo">
+  </label>
+</p>
+
+<!-- Hidden checkbox-->
+<input type="checkbox" id="map-toggle" style="display: none;">
+
+<!-- Embed Map Container -->
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87178.69460010915!2d-114.11651811802955!3d47.59972322521192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535e61bf5cf97683%3A0xb35a09f8931eb6f6!2sPablo%2C%20MT%2059855!5e0!3m2!1sen!2sus!4v1710000000000" 
+    width="100%" 
+    height="300" 
+    style="border:0; border-radius: 8px;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</div>
+
+</main>
+<div class="form-container">
+  <form class="form-v2">
+    <fieldset>
+      <legend>Sign Up for More Updates from our Studio!</legend>
+      
+      <label>First Name:</label>
+      <input type="text" name="First-Name" placeholder="Frank">
+      <label>Last Name:</label>
+      <input type="text" name="Last-Name" placeholder="FencePost">
+    
+      <label>Email Address:</label>
+      <input type="email" name="email" placeholder="e.g. joysmith@gmail.com">
+    
+      <label>Country:</label> 
+      <select name="country">
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="au">Australia</option>
+        <option value="other">Other</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+  <div class="form-image">
+    <img src="images/form.jpeg" alt="Form Visual background" class="card-image">
+  </div>
+</div> 
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.49 143.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fce3ef;
+      }
+    </style>
+  </defs>
+  <ellipse id="svg_24" data-name="svg 24" class="cls-1" cx="68.79" cy="73.15" rx="63.5" ry="65.51" transform="translate(-.5 .48) rotate(-.4)"/>
+  <path id="svg_48" data-name="svg 48" d="M109.1,44.15H28.43l40.35,23.33,40.31-23.33ZM71.14,77.42c-.74.43-1.53.65-2.36.65s-1.65-.22-2.4-.65l-41.1-23.77v48.5h87v-48.5l-41.14,23.77Z"/>
+</svg>
