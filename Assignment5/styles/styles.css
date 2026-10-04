@@ -338,7 +338,7 @@ body {
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #24466a;
+  background-color: #a8b58a;
   color: #f2ebdd;
   border-radius: 8px;
   overflow: hidden;
@@ -349,12 +349,12 @@ body {
 .table-container td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #a8b58a;
+  border-bottom: 1px solid #b46a72;
   vertical-align: middle;
 }
 
 .table-container th {
-  background-color: #19283c;
+  background-color: #b46a72;
   font-weight: bold;
 }
 
