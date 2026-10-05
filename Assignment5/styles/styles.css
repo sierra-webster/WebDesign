@@ -394,7 +394,8 @@ body {
   width: 120px; 
   height: auto;
 }
-<!-- Media query for mobile Screens -->
+/* Media query for mobile Screens */
+
 @media (max-width: 600px) {
   .page-content {
     flex-direction: column;
