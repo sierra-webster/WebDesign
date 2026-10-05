@@ -394,3 +394,13 @@ body {
   width: 120px; /* Adjust graphic width as needed */
   height: auto;
 }
+<!-- Media query for mobile Screens -->
+@media (max-width: 600px) {
+  .page-content {
+    flex-direction: column;
+  }
+
+  .sidebar-graphic {
+    display: none; 
+  }
+}
