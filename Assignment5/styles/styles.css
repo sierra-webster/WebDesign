@@ -391,7 +391,7 @@ body {
 }
 
 .sidebar-graphic img {
-  width: 120px; /* Adjust graphic width as needed */
+  width: 120px; 
   height: auto;
 }
 <!-- Media query for mobile Screens -->
