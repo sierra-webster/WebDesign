@@ -19,3 +19,4 @@
 #### A sidebar graphic image. 
 ### What you'll use to build it: 
 #### I will be using photoshop to build the graphic, and using flexbox to apply the graphic. 
+
