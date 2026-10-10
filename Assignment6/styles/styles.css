@@ -186,16 +186,17 @@ nav a:hover {
 }
 
 #gallery .card {
-    flex: 0 0 320px;
+    flex: 0 0 380px;
     scroll-snap-align: start;
     border: 1px solid #19283c;
     border-radius: 12px;
-    padding: 20px;
+    padding: 0;
     text-align: center;
     background-color: #b46a72;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     box-sizing: border-box;
     transition: transform 0.3s ease;
+    overflow: hidden;
 }
 
 #gallery .card:hover {
@@ -204,14 +205,16 @@ nav a:hover {
 
 #gallery .card img {
   width: 100%;
-  height: 200px;
+  height: 380px;
   object-fit: cover;
-  border-radius: 5px;
+  display: block;
+  border-radius: 0;
 }
 
 #gallery .card h3 {
-  font-size: 1.25rem;
-  margin: 10px 0 5px 0;
+  font-size: 0.9rem;
+  margin: 18px 15px 5px 15px;
+  margine: 0 15px 20px 15px;
 }
 
 #gallery .card p {
