@@ -98,6 +98,14 @@ a {
 .footer-bar a:hover {
   color: #79a0c9;
 }
+ 
+.footer {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #19283c;
+  margin-top: 20px;
+}
 .nav-bar {
     width: 100%;
     background-color: #19283c;
