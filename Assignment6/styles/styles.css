@@ -480,3 +480,16 @@ body {
   margin-bottom: 8px;
   color: #ffffff;
 }
+
+.announcement-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px; 
+}
+
+.announcement-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
