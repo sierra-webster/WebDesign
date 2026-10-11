@@ -212,9 +212,9 @@ nav a:hover {
 }
 
 #gallery .card h3 {
-  font-size: 0.9rem;
+  font-size: 14px;
   margin: 18px 15px 5px 15px;
-  margine: 0 15px 20px 15px;
+  margin: 0 15px 20px 15px;
 }
 
 #gallery .card p {
