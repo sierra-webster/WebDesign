@@ -440,17 +440,18 @@ body {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  height: 460px;
+  height: 500px;
   margin-top: 30px;
   margin-bottom: 40px;
   border-radius: 0;
   border: none;
   overflow: hidden;
 
-  /* CSS Grid Stacking */
+  /* Grid Stack over Banner */
   display: grid;
   grid-template-areas: "banner-stack";
-  place-items: center; /* Centers text both vertically and horizontally */
+  align-items: center;
+  justify-items: start;
 }
 
 /* Stacks video and text in the same grid area */
@@ -469,14 +470,14 @@ body {
 /* Styling for text sitting on top */
 .banner-overlay {
   z-index: 2; /* Keeps text above video layer */
-  text-align: center;
+  text-align: left;
   color: #ffffff;
-  padding: 0 20px;
+  padding: 60px;
 }
 
 .banner-overlay h2 {
   font-family: 'winterlady', cursive, sans-serif; 
-  font-size: 36px;
+  font-size: 80px;
   margin-bottom: 8px;
   color: #ffffff;
 }
