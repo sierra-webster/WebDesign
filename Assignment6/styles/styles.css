@@ -450,7 +450,7 @@ body {
   /* Grid Stack over Banner */
   display: grid;
   grid-template-areas: "banner-stack";
-  align-items: start;
+  align-items: end;
   justify-items: start;
 }
 
@@ -473,7 +473,7 @@ body {
   text-align: left;
   color: #ffffff;
   padding-left: 60px;
-  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .banner-overlay h2 {
