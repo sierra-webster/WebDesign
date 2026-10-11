@@ -503,3 +503,46 @@ body {
   height: 28px;
   object-fit: contain;
 }
+
+/* Container for the video and text side-by-side */
+.video-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Video for the Process page CAN BE UPDATED */
+.video-container {
+  flex: 1;
+  max-width: 350px; 
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+
+.video-description {
+  flex: 1.5;
+}
+
+.video-description h3 {
+  font-family: 'Italiana', serif;
+  color: #19283c;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.video-description p {
+  font-family: 'Manrope', sans-serif;
+  color: #19283c;
+  font-size: 18px;
+  line-height: 1.6;
+}
