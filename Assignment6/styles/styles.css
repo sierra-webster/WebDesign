@@ -512,7 +512,12 @@ body {
   gap: 40px;
   max-width: 1000px;
   margin: 60px auto;
-  padding: 0 20px;
+  
+  /* Replace padding: 0 20px; with these box properties */
+  padding: 30px;
+  border: 1px solid #a8b58a; 
+  border-radius: 12px;       
+  background-color: #79a0c9; 
 }
 
 /* Video for the Process page CAN BE UPDATED */
