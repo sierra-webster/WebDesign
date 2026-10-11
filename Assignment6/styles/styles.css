@@ -450,7 +450,7 @@ body {
   /* Grid Stack over Banner */
   display: grid;
   grid-template-areas: "banner-stack";
-  align-items: end;
+  align-items: center;
   justify-items: start;
 }
 
