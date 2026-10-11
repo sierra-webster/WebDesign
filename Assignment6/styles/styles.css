@@ -441,7 +441,7 @@ body {
   margin-left: -50vw;
   margin-right: -50vw;
   height: 500px;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 40px;
   border-radius: 0;
   border: none;
@@ -450,7 +450,7 @@ body {
   /* Grid Stack over Banner */
   display: grid;
   grid-template-areas: "banner-stack";
-  align-items: center;
+  align-items: start;
   justify-items: start;
 }
 
@@ -472,7 +472,8 @@ body {
   z-index: 2; /* Keeps text above video layer */
   text-align: left;
   color: #ffffff;
-  padding: 60px;
+  padding-left: 60px;
+  padding-top: 40px;
 }
 
 .banner-overlay h2 {
