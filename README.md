@@ -1,21 +1,10 @@
 # WebDesign
-## Component Plan
+## Project 1: Wrap Up
 
-### What did you create or organize this week that you think will be most useful in future websites? Why?
-#### I think the side bar I created will be the most usefull for my website. Because its filling an empty spave. It gives me the building blocks to add a more unique and custom graphic down the line that will better reflect my personal art. I think it will help with giving my site a 'personality' down the line... When I get the time to make a better graphic. 
+### Do you plan to continue developing this site for your final project later in the semester?
+#### Yes, I plan to develope this site more. It would be a valuable resorce for me to display my art and act as a portfolio as I develope more as an artist. 
 
-### How did working with reusable components affect the way you approached your design this week?
-#### I think it forces me to think of an overall branding of my page.  
-
-## Assinment 5
-
-### Webpage the component will be applied to:
-#### the homepage as of right now, till there is more time to create a more profestional graphic that will be a better representaion of the page. 
-### Type of component:
-#### Is a decorative sidebar graphic. 
-### Why it's needed:
-#### To add visual intrestest and consitancy across the right side of the layout of the page. 
-### Features:
-#### A sidebar graphic image. 
-### What you'll use to build it: 
-#### I will be using photoshop to build the graphic, and using flexbox to apply the graphic. 
+### If so, what three things would you most want to remember when revisiting it several weeks from now? These might be notes that help you ease back into it, ideas for improvements, things you couldn't get to, inspiration from peers, things that became clear as you finalized this version, etc.
+#### The first thing I want to remember is that sections of my page a made for replacing. So if I have updated videos or pictures. I can always update them by switching them out. 
+#### The second thing would be the custom graphic. I would really like to make a better custome graphic that is a representaion of my artwork that can be used for my site. 
+#### The third would be finalzing the content of each page, like the bio, the video section, and the gallery discriptions. I think this would help my purpasse the most by showing who I am, my work, and the process videos. 
