@@ -587,4 +587,81 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+ /* Social Media Table */
+ /* Card container styling */
+.table-container {
+  max-width: 650px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  background-color: #f7e3e7; /* Soft blush pink card background */
+  font-family: 'Manrope', sans-serif;
+}
 
+/* Heading inside container */
+.table-container h2 {
+  margin: 0;
+  padding: 1.25rem 1.5rem 0.5rem;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+/* Table styling */
+.social-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Header row bar matching the mockup */
+.social-table thead tr {
+  background-color: #b56272; /* Rose accent bar */
+  color: #ffffff;
+}
+
+.social-table th {
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Data cells and subtle dividing lines */
+.social-table td {
+  padding: 14px 20px;
+  color: #4a4a4a;
+  border-bottom: 1px solid rgba(181, 98, 114, 0.2);
+  vertical-align: middle;
+}
+
+.social-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Flex layout for logo + platform text */
+.platform-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-logo {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* Link styling */
+.table-link {
+  color: #8c3f50;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.table-link:hover {
+  color: #581d2a;
+  text-decoration: underline;
+}
+
+/* Next thing */
