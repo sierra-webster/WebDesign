@@ -449,7 +449,7 @@ h2 {
 
 /* Semi-Transparent Glassmorphism Boxes */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(38, 20, 56, 0.55); /* Dark purple semi-transparent tint */;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.35);
@@ -588,7 +588,6 @@ h2 {
   }
 }
  /* Social Media Table */
- /* Card container using dark purple glassmorphism */
 .table-container {
   max-width: 650px;
   margin: 2rem auto;
@@ -654,8 +653,8 @@ h2 {
 
 /* Increased social icon size */
 .social-logo {
-  width: 36px;  /* Increased from 22px */
-  height: 36px;
+  width: 40px;  /* Increased from 22px */
+  height: 40px;
   object-fit: contain;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
