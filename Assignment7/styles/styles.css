@@ -728,6 +728,13 @@ h2 {
     
     transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
+/* Hover state: switches to dark purple glass */
+.cat-card:hover {
+    transform: translateY(-4px);
+    background: rgba(38, 20, 56, 0.75);
+    border-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.35);
+}
 
 /* Hover state: switches to dark purple glass */
 .cat-card:hover {
