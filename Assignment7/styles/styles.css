@@ -1,42 +1,161 @@
+/* --- Font --- */
+@font-face {
+    font-family: 'Manrope';
+    src: url('fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: 200 800; 
+    font-style: normal;
+}
+
+/* --- Global Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url('../images/test/retrowave.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Manrope', sans-serif; 
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* --- Navigation Bar --- */
+.nav-bar {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-bar ul {
+    list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 30px;
 }
 
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s ease;
+}
+
+.nav-bar a:hover {
+    opacity: 0.8;
+}
+
+/* --- Headings --- */
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif; 
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* --- Card Component --- */
 .card-v2 {
-    background-color: rgba(255, 255, 255, 0.9); /* Solid light container over background */
+    background-color: rgba(255, 255, 255, 0.92);
     border-radius: 12px;
-    padding: 20px;
+    padding: 24px;
     max-width: 600px;
     margin: 40px auto;
+    color: #1d1d1f;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
- h1 {
-  color: #98C4D6;
-    font-size: 90px;
-    font-family: 'Arial', sans-serif;
-}
-h2 {
-    color: #fefefe;
-    font-size: 36px;
-    font-family: 'Arial', cursive;
-}
-h3 {
-    color:#fefefe;
-    font-size: 22px;
-    font-family: 'Arial', serif;
+.card-image {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
 }
 
-p {
-    color: #fefefe;
-    font-family: 'Arial', sans-serif;
+.card-body h3.card-title {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 1.5rem;
+    color: #1d1d1f;
+    margin-bottom: 10px;
 }
-a {
-    color: #fefefe;
+
+.card-body p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.95rem;
+    color: #424245;
+    margin-bottom: 15px;
 }
+
+.card-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+
+.card-button:hover {
+    background-color: #1d4ed8;
+}
+
+/* --- Footer --- */
+.footer-bar {
+    text-align: center;
+    padding: 25px 20px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer-bar .footer-item {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 0.9rem;
+}
+
+.footer-bar .footer-item:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+}
+
 
