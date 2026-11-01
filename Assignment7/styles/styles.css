@@ -673,141 +673,139 @@ h2 {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
-/* Category Page & Cards */
-/* Translucent Frosted Glass Card Base */
+/* --------Category Page & Cards------------ */
+/* --- Global Overrides & Fonts --- */
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-VariableFont_wght.ttf'); 
+}
+
+/* --- Global Elements from Reference Image --- */
+.show-results {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+/* Container for Category Grid (Alignment) */
+.category-container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 column grid */
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+/* --- Category Card Styling (Glassmorphism & Structure) --- */
 .cat-card {
-  border-radius: 18px;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  
-  /* Glassmorphism effects matching the dark purple theme */
-  background: rgba(38, 20, 56, 0.45);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
-  
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-}
+    border-radius: 18px; 
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.15); 
 
-.cat-card:hover {
-  transform: translateY(-4px);
-  background: rgba(38, 20, 56, 0.6);
-  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.35);
-  border-color: rgba(255, 255, 255, 0.3);
-}
-
-/* Clear out old solid pastel background overrides */
-.pastel-pink, .pastel-blue, .pastel-yellow, 
-.pastel-green, .pastel-purple, .pastel-peach {
-  background-color: transparent;
-}
-
-/* White & Light Text for Dark Background Contrast */
-.card-tag {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 0.4rem;
-  text-transform: uppercase;
+    background: rgba(38, 20, 56, 0.45);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
 }
 
 .cat-card h3 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.4rem;
-  color: #ffffff;
-  margin: 0 0 0.5rem 0;
+    margin: 0;
+    font-size: 1.25rem;
+    color: #ffffff; 
+    font-weight: 700;
 }
 
 .cat-card p {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.82);
-  line-height: 1.4;
-  margin: 0 0 1.25rem 0;
-  flex-grow: 1;
+    margin: 0.5rem 0 1.25rem 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.4;
+    flex-grow: 1; 
 }
 
-/* Translucent Pill Badges */
 .card-pills {
-  display: flex;
-  gap: 0.4rem;
-  margin-bottom: 1.25rem;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .pill {
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
-  padding: 0.25rem 0.65rem;
-  font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.9);
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.85); 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.35rem 0.75rem;
+    border-radius: 12px;
+    
+    /* Background tint */
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Golden Accent Links */
-.card-link {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #fce38a;
-  text-decoration: none;
-  transition: all 0.2s ease;
+/* --- Links  --- */
+.view-details {
+    margin-top: auto;
+    color: #fce38a;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
 }
 
-.card-link:hover {
-  color: #ffffff;
-  text-decoration: underline;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+.view-details:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
-/* Semi-transparent Glass Filter Sidebar */
-.filter-card {
-  background: rgba(38, 20, 56, 0.45);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 16px;
-  padding: 1.25rem;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
-  color: #ffffff;
+/* --- Filter Sidebar styling --- */
+.refine-search {
+    background: rgba(38, 20, 56, 0.45);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 1.25rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    max-width: 250px;
 }
 
 .sub-label {
-  color: rgba(255, 255, 255, 0.65);
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.65);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
-.filter-group label {
-  color: rgba(255, 255, 255, 0.85);
+.input-field {
+    width: 100%;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
 }
 
-.filter-group input,
-.filter-group select {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+.filter-btn {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
-.filter-group input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.filter-group select option {
-  background: #261438;
-  color: #ffffff;
-}
-
-.clear-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  color: #ffffff;
-}
-
-.clear-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.results-count {
-  color: rgba(255, 255, 255, 0.75);
-}
