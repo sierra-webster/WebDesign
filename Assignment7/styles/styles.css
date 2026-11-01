@@ -689,13 +689,26 @@ h2 {
 }
 
 /* Container for Category Grid (Alignment) */
-.category-container {
-    max-width: 1100px;
-    margin: 2rem auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 column grid */
-    gap: 1.5rem;
-    padding: 0 1rem;
+.categories-page-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.categories-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* --- Organized 3-Column Category Grid --- */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 /* --- Category Card Styling (Glassmorphism & Structure) --- */
@@ -766,7 +779,14 @@ h2 {
 }
 
 /* --- Filter Sidebar styling --- */
-.refine-search {
+.filter-sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 2rem;
+}
+
+.filter-card {
     background: rgba(38, 20, 56, 0.45);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -775,8 +795,8 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
     color: #ffffff;
-    max-width: 250px;
 }
+
 
 .sub-label {
     display: block;
