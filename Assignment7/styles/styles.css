@@ -38,11 +38,11 @@ body {
 .nav-bar {
   width: 100%;
   max-width: 1480px; /* Slightly increased max-width to span wider across the screen */
-  background: rgba(255, 255, 255, 0.10); /* Semi-transparent frosted glass */
+  background: rgba(255, 255, 255, 0.10);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 40px; /* Fully rounded pill shape */
+  border-radius: 30px; /* Fully rounded pill shape */
   padding: 30px 70px; /* Increased vertical padding (from 20px) to make the nav bar taller */
   display: flex;
   align-items: center;
