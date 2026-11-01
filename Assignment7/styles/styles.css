@@ -1,0 +1,29 @@
+
+body {
+    background-color: #fff7e6;
+    color: #b46a72;
+}
+ h1 {
+  color: #c37179f9;
+    font-size: 90px;
+    font-family: 'Arial', sans-serif;
+}
+h2 {
+    color: #19283c;
+    font-size: 36px;
+    font-family: 'Arial', cursive;
+}
+h3 {
+    color:#19283c
+    font-size: 22px;
+    font-family: 'Arial', serif;
+}
+
+p {
+    color: #19283c;
+    font-family: 'Arial', sans-serif;
+}
+a {
+    color: #19283c;
+}
+
