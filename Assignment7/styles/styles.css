@@ -80,25 +80,6 @@ body {
     color: #ffffff;
 }
 
-/* Right pill button (matching the "Contact" button in your inspiration photo) */
-.nav-btn {
-    font-family: 'Manrope', sans-serif;
-    background-color: #ffffff;
-    color: #2b2b2b !important;
-    padding: 8px 22px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-    display: inline-block;
-}
-
-.nav-btn:hover {
-    background-color: rgba(255, 255, 255, 0.88);
-    transform: translateY(-1px);
-}
-
 /* --- Headings --- */
 header {
     text-align: center;
