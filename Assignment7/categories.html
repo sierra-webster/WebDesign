@@ -40,14 +40,165 @@
 
 
 <!-- ------------------- CARD COMPONENT---------------------- -->
-  <div class="card-v2">
-    <img src="images/sierraminesinger.jpeg" alt="Sierra Webster" class="card-image">
-      <div class="card-body">
-        <h3 class="card-title">Sierra Webster</h3>
-        <p>This is a card component</p>
-        <a href="#" class="card-button">Learn More</a>
+ <main class="categories-page-wrapper">
+  <!-- Sidebar / Filter Panel -->
+  <aside class="filter-sidebar">
+    <div class="filter-card">
+      <span class="sub-label">REFINE YOUR SEARCH</span>
+      
+      <div class="filter-group">
+        <label for="category-search">Search Categories</label>
+        <input type="text" id="category-search" placeholder="Try fantasy, movies, quick...">
       </div>
-  </div>
+
+      <div class="filter-group">
+        <label for="genre-select">Genre Preference</label>
+        <select id="genre-select">
+          <option value="all">All Genres</option>
+          <option value="fiction">Fiction</option>
+          <option value="nonfiction">Non-Fiction</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="length-select">Book Length</label>
+        <select id="length-select">
+          <option value="all">Any Length</option>
+          <option value="short">Under 200 pages</option>
+          <option value="medium">200–400 pages</option>
+          <option value="long">400+ pages</option>
+        </select>
+      </div>
+
+      <button type="button" class="clear-btn">Clear filters</button>
+    </div>
+  </aside>
+
+  <!-- Category Grid Section -->
+  <section class="categories-content">
+    <p class="results-count">Showing 9 book categories</p>
+    
+    <div class="categories-grid">
+      <!-- 1. Graphic Novels -->
+      <article class="cat-card pastel-pink">
+        <div class="badge-circle">🎨</div>
+        <span class="card-tag">COMICS & ART</span>
+        <h3>Graphic Novels</h3>
+        <p>Visual storytelling filled with stunning illustration, manga, and sequential graphic artwork.</p>
+        <div class="card-pills">
+          <span class="pill">Visual</span>
+          <span class="pill">Illustrated</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 2. Adapted into Movies -->
+      <article class="cat-card pastel-blue">
+        <div class="badge-circle">🎬</div>
+        <span class="card-tag">CINEMA</span>
+        <h3>Adapted into Movies</h3>
+        <p>Famous page-turners that inspired blockbuster films, streaming series, and classic adaptations.</p>
+        <div class="card-pills">
+          <span class="pill">Screenplay</span>
+          <span class="pill">Popular</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 3. Quick Reads -->
+      <article class="cat-card pastel-yellow">
+        <div class="badge-circle">⚡</div>
+        <span class="card-tag">SHORT & SWEET</span>
+        <h3>Quick Reads</h3>
+        <p>Fast-paced novellas and short collections under 200 pages perfect for a single weekend sitting.</p>
+        <div class="card-pills">
+          <span class="pill">Novella</span>
+          <span class="pill">Bite-sized</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 4. Cozy Mysteries -->
+      <article class="cat-card pastel-green">
+        <div class="badge-circle">🔍</div>
+        <span class="card-tag">CRIME & PUZZLES</span>
+        <h3>Cozy Mysteries</h3>
+        <p>Charming sleuths, small-town secrets, and lighthearted whodunits without excessive violence.</p>
+        <div class="card-pills">
+          <span class="pill">Whodunit</span>
+          <span class="pill">Lighthearted</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 5. Young Adult -->
+      <article class="cat-card pastel-purple">
+        <div class="badge-circle">✨</div>
+        <span class="card-tag">COMING OF AGE</span>
+        <h3>Young Adult</h3>
+        <p>High-stakes adventures, relatable high school drama, emotional journeys, and first loves.</p>
+        <div class="card-pills">
+          <span class="pill">YA Fiction</span>
+          <span class="pill">Drama</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 6. Sci-Fi & Fantasy -->
+      <article class="cat-card pastel-peach">
+        <div class="badge-circle">🚀</div>
+        <span class="card-tag">SPECULATIVE</span>
+        <h3>Sci-Fi & Fantasy</h3>
+        <p>Immersive worldbuilding, futuristic technologies, space exploration, and magical realms.</p>
+        <div class="card-pills">
+          <span class="pill">Worldbuilding</span>
+          <span class="pill">Epic</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 7. Non-Fiction & Memoirs -->
+      <article class="cat-card pastel-pink">
+        <div class="badge-circle">📖</div>
+        <span class="card-tag">REAL STORIES</span>
+        <h3>Memoirs & Bios</h3>
+        <p>Inspiring personal memoirs, deep historical biographies, and true human experiences.</p>
+        <div class="card-pills">
+          <span class="pill">Biography</span>
+          <span class="pill">True Story</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 8. Thriller & Horror -->
+      <article class="cat-card pastel-blue">
+        <div class="badge-circle">🌙</div>
+        <span class="card-tag">SUSPENSE</span>
+        <h3>Thriller & Horror</h3>
+        <p>Edge-of-your-seat psychological thrillers, chilling supernatural tales, and mystery suspense.</p>
+        <div class="card-pills">
+          <span class="pill">Suspense</span>
+          <span class="pill">Eerie</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+
+      <!-- 9. Historical Fiction -->
+      <article class="cat-card pastel-yellow">
+        <div class="badge-circle">🏛️</div>
+        <span class="card-tag">TIME TRAVEL</span>
+        <h3>Historical Fiction</h3>
+        <p>Richly detailed period pieces that transport you back to captivating eras of history.</p>
+        <div class="card-pills">
+          <span class="pill">History</span>
+          <span class="pill">Period Piece</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
+    </div>
+  </section>
+</main>
+ 
 
 <!-- ------------------- FOOTER ---------------------- -->
 <footer class="footer-bar">
