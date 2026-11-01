@@ -390,3 +390,163 @@ h2 {
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* About Page Hero Section Layout */
+.about-hero-section {
+  background: transparent;
+  padding: 40px 20px 80px 20px;
+  min-height: calc(100vh - 220px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 1100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 36px;
+  align-items: stretch;
+}
+
+/* Semi-Transparent Glassmorphism Boxes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 24px;
+  padding: 40px;
+  color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* Left Box Typography & Styling */
+.about-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 10px;
+}
+
+.about-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.8rem;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.about-lead {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 28px;
+}
+
+.feature-block h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.bullet-star {
+  color: #fde047;
+  font-size: 0.9rem;
+}
+
+/* Right Box Crew Section */
+.crew-right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.crew-badge {
+  background: rgba(255, 255, 255, 0.22);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.crew-img-container {
+  width: 100%;
+  max-height: 190px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 16px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.crew-illustration {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.crew-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.crew-desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+}
+
+.crew-badges-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.badge-cat {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.crew-btn {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Mobile Responsive Layout */
+@media (max-width: 850px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+}

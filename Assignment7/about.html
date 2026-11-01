@@ -10,65 +10,72 @@
 <body>
 <!-- ------------------- NAV ---------------------- -->
 <div class="nav-wrapper">
-        <nav class="nav-bar">
-            <div class="nav-brand">The Bookshelf</div>
-
-            <!-- Center Navigation Links -->
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="categories.html">Main Bookshelf</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="info.html">Contact</a></li>
-            </ul>
-        </nav>
+  <nav class="nav-bar">
+    <div class="nav-brand">The Bookshelf</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="categories.html">Main Bookshelf</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="info.html">Contact</a></li>
+    </ul>
+  </nav>
 </div>
 
-
-<!-- ------------------- HEADER---------------------- -->
-<header>  
+<!-------------------- HEADER ----------------------->
+<header class="page-header">
   <h1>The Bookshelf</h1>
   <h2>A Book for Every Mood</h2>
 </header>
 
-<!-- ------------------- CARD COMPONENT---------------------- -->
-  <!-- Right Glass Card: The Pixel Purrsistence Crew with Sleepy Cat Illustration -->
-<div class="crew-card glass-panel">
-  <div class="crew-badge">MEET THE TEAM</div>
-  
-  <!-- Embedded Sleepy Cat Image -->
-  <div class="crew-img-container">
-    <img src="images/sleepy-cat.jpg" alt="Barnaby the sleepy cat illustration" class="crew-illustration">
-  </div>
-
-  <h2 class="crew-title">The Pixel Purrsistence Crew</h2>
-  <p class="crew-desc">
-    Meet the team behind the bookshelf[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span). They really get into character[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span)—especially when it's time for a reading nap!
-  </p>
-
-  <div class="crew-members-row">
-    <span class="badge-cat">🐱 Barnaby (Head Curator)</span>
-    <span class="badge-cat">😸 Cleo (Lead Reviewer)</span>
-  </div>
-
-  <a href="#crew" class="btn-primary crew-btn">Meet the paws &rarr;</a>
-</div>
-
-
-  <main class="main-content">
-    <div class="about-container">
-      <h2>Who We Are</h2>
-           style="width: 450px;">
-      <p>The Bookshelf is a new site for readers and book recommendations. Our mission is to help readers discover books they love and get more out of reading. 
-         A Few Things You Can Do On The Bookshelf
-
-            See what books your friends are reading.
-            Track the books you might have seen in theaters.
-            Check out the latest books that are hitting the shelves.
-            Keep our book categories up to date without a complicated cataloging system.
-            Find out if a book is a good fit for you.
+<!---------------- MAIN CONTENT  -------------------->
+<main class="about-hero-section">
+  <div class="about-container">
+    
+    <!---------------- Mission Box ------------------->
+    <div class="glass-panel about-left-box">
+      <span class="about-tag">OUR STORY & MISSION</span>
+      <h2 class="about-title">Who We Are</h2>
+      <p class="about-lead">
+        The Bookshelf is a new site for readers and book recommendations[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span). Our mission is to help readers discover books they love and get more out of reading[span_9](start_span)[span_9](end_span)[span_10](start_span)[span_10](end_span).
       </p>
+
+      <div class="feature-block">
+        <h3>A Few Things You Can Do On The Bookshelf[span_11](start_span)[span_11](end_span)[span_12](start_span)[span_12](end_span):</h3>
+        <ul class="feature-list">
+          <li><span class="bullet-star">✦</span> See what books your friends are reading[span_13](start_span)[span_13](end_span)[span_14](start_span)[span_14](end_span).</li>
+          <li><span class="bullet-star">✦</span> Track the books you might have seen in theaters[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span).</li>
+          <li><span class="bullet-star">✦</span> Check out the latest books that are hitting the shelves[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span).</li>
+          <li><span class="bullet-star">✦</span> Keep our book categories up to date without a complicated cataloging system[span_19](start_span)[span_19](end_span)[span_20](start_span)[span_20](end_span).</li>
+          <li><span class="bullet-star">✦</span> Find out if a book is a good fit for you[span_21](start_span)[span_21](end_span)[span_22](start_span)[span_22](end_span).</li>
+        </ul>
+      </div>
     </div>
-  </main>
+
+    <!-- RIGHT BOX: The Pixel Purrsistence Crew & Sleepy Cat -->
+    <div class="glass-panel crew-right-box">
+      <span class="crew-badge">MEET THE TEAM</span>
+      
+      <!-- Sleepy Cat Image Frame -->
+      <div class="crew-img-container">
+        <img src="images/sleepy cat.jpg" alt="Barnaby the sleepy cat illustration" class="crew-illustration">
+      </div>
+
+      <h2 class="crew-title">The Pixel Purrsistence Crew</h2>
+      <p class="crew-desc">
+        Meet the team behind the bookshelf[span_23](start_span)[span_23](end_span)[span_24](start_span)[span_24](end_span). They really get into character when it's time for a reading nap[span_25](start_span)[span_25](end_span)[span_26](start_span)[span_26](end_span)!
+      </p>
+
+      <div class="crew-badges-row">
+        <span class="badge-cat">🐱 Barnaby (Head Curator)</span>
+        <span class="badge-cat">😸 Cleo (Lead Reviewer)</span>
+      </div>
+
+      <a href="info.html" class="btn-primary crew-btn">Meet the paws &rarr;</a>
+    </div>
+
+  </div>
+</main>
+
 <!-- ------------------- FOOTER ---------------------- -->
 <footer class="footer-bar">
   <a href="info.html" class="footer-item">Contact</a> |
