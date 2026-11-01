@@ -558,3 +558,22 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+/* Banner Image Below Header */
+.banner-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  padding: 20px 20px 0 20px;
+}
+
+.header-banner-img {
+  max-width: 450px; /* Controls how wide the graphic appears */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15)); /* Adds a soft professional shadow */
+}
