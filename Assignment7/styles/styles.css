@@ -779,8 +779,8 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* --- Links  --- */
-.view-details {
+/* --- Links on Cards in category--- */
+.card-link {
     margin-top: auto;
     color: #fce38a;
     text-decoration: none;
@@ -791,9 +791,10 @@ h2 {
     gap: 0.3rem;
 }
 
-.view-details:hover {
+.card-link:hover {
     color: #ffffff;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
 }
 
 /* --- Filter Sidebar styling --- */
