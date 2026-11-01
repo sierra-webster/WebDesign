@@ -51,11 +51,21 @@ body {
 }
 
 .nav-brand {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+/* Controls display size of the star */
+.nav-icon {
+  width: 24px;  
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-links {
