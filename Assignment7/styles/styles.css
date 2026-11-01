@@ -848,3 +848,94 @@ h2 {
     font-weight: 600;
 }
 
+/* --- Video Card Links on Index Page  --- */
+/* --- Video Hover Cards Section --- */
+.video-cards-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+}
+
+.video-cards-section h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.video-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Card Styling matching your glassmorphism theme */
+.video-card {
+  background: rgba(38, 20, 56, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-6px);
+  background: rgba(38, 20, 56, 0.75);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.35);
+}
+
+/* Video Wrapper inside Card */
+.card-video-wrapper {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  background: #000000;
+}
+
+.card-video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.65;
+  transition: opacity 0.3s ease;
+}
+
+.video-card:hover .card-video-wrapper video {
+  opacity: 1;
+}
+
+/* Text inside Card */
+.card-text {
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.card-text h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin: 0 0 0.4rem 0;
+}
+
+.card-text p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 900px) {
+  .video-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
