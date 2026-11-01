@@ -42,8 +42,8 @@ body {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50px; /* Fully rounded pill shape */
-    padding: 20px 60px;
+    border-radius: 40px; /* Fully rounded pill shape */
+    padding: 20px 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
