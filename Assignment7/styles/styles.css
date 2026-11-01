@@ -354,3 +354,39 @@ h2 {
     margin-right: auto;  
   }  
 }  
+
+/* Crew Section */
+/* Crew Illustration Styling */
+.crew-img-container {
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-top: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.crew-illustration {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.crew-members-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+.badge-cat {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
