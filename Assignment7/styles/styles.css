@@ -25,37 +25,78 @@ body {
 }
 
 /* --- Navigation Bar --- */
-.nav-bar {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 15px 40px;
+/* --- FLOATING ROUNDED NAVIGATION BAR --- */
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.nav-bar ul {
+.nav-bar {
+    width: 100%;
+    max-width: 1100px; /* Makes it wider across the screen */
+    background: rgba(255, 255, 255, 0.18); /* Semi-transparent frosted glass */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px; /* Fully rounded pill shape */
+    padding: 12px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.nav-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 30px;
+    align-items: center;
+    gap: 36px; /* Generous spacing between middle links */
 }
 
-.nav-bar a {
-    color: #ffffff;
-    text-decoration: none;
+.nav-links a {
     font-family: 'Manrope', sans-serif;
-    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
     font-size: 0.95rem;
-    letter-spacing: 0.5px;
-    transition: opacity 0.2s ease;
+    font-weight: 500;
+    transition: color 0.2s ease;
 }
 
-.nav-bar a:hover {
-    opacity: 0.8;
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* Right pill button (matching the "Contact" button in your inspiration photo) */
+.nav-btn {
+    font-family: 'Manrope', sans-serif;
+    background-color: #ffffff;
+    color: #2b2b2b !important;
+    padding: 8px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.88);
+    transform: translateY(-1px);
 }
 
 /* --- Headings --- */
