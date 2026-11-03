@@ -16,7 +16,6 @@
             The Bookshelf
           </div>
 
-
             <!-- Center Navigation Links -->
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -39,44 +38,53 @@
 </div>
 
 
-<!-- ------------------- CARD COMPONENT---------------------- -->
- <main class="categories-page-wrapper">
-  <!-- Sidebar / Filter Panel -->
-  <aside class="filter-sidebar">
-    <div class="filter-card">
-      <span class="sub-label">REFINE YOUR SEARCH</span>
+<!-- ------------------- MAIN CONTENT & TOP SEARCH TOOLBAR ---------------------- -->
+<main class="categories-page-wrapper" style="flex-direction: column; max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem;">
+  
+  <!-- Top Horizontal Refine Search Bar -->
+  <section class="filter-sidebar" style="width: 100%; position: static; margin-bottom: 2.5rem;">
+    <div class="filter-card" style="padding: 1.5rem 2rem;">
+      <span class="sub-label" style="margin-bottom: 1rem; display: block;">REFINE YOUR SEARCH</span>
       
-      <div class="filter-group">
-        <label for="category-search">Search Categories</label>
-        <input type="text" id="category-search" placeholder="Try fantasy, movies, quick...">
-      </div>
+      <div style="display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 1rem; align-items: end;">
+        <!-- Search Input -->
+        <div class="filter-group" style="margin: 0;">
+          <label for="category-search" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Search Categories</label>
+          <input type="text" id="category-search" class="input-field" placeholder="Try fantasy, movies, quick..." style="margin: 0;">
+        </div>
 
-      <div class="filter-group">
-        <label for="genre-select">Genre Preference</label>
-        <select id="genre-select">
-          <option value="all">All Genres</option>
-          <option value="fiction">Fiction</option>
-          <option value="nonfiction">Non-Fiction</option>
-        </select>
-      </div>
+        <!-- Genre Select -->
+        <div class="filter-group" style="margin: 0;">
+          <label for="genre-select" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Genre Preference</label>
+          <select id="genre-select" class="input-field" style="margin: 0; height: 38px;">
+            <option value="all" style="color: #1a1a1a;">All Genres</option>
+            <option value="fiction" style="color: #1a1a1a;">Fiction</option>
+            <option value="nonfiction" style="color: #1a1a1a;">Non-Fiction</option>
+          </select>
+        </div>
 
-      <div class="filter-group">
-        <label for="length-select">Book Length</label>
-        <select id="length-select">
-          <option value="all">Any Length</option>
-          <option value="short">Under 200 pages</option>
-          <option value="medium">200–400 pages</option>
-          <option value="long">400+ pages</option>
-        </select>
-      </div>
+        <!-- Length Select -->
+        <div class="filter-group" style="margin: 0;">
+          <label for="length-select" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Book Length</label>
+          <select id="length-select" class="input-field" style="margin: 0; height: 38px;">
+            <option value="all" style="color: #1a1a1a;">Any Length</option>
+            <option value="short" style="color: #1a1a1a;">Under 200 pages</option>
+            <option value="medium" style="color: #1a1a1a;">200–400 pages</option>
+            <option value="long" style="color: #1a1a1a;">400+ pages</option>
+          </select>
+        </div>
 
-      <button type="button" class="clear-btn">Clear filters</button>
+        <!-- Clear Button -->
+        <div>
+          <button type="button" class="filter-btn" style="height: 38px; padding: 0 1.25rem; white-space: nowrap; cursor: pointer;">Clear filters</button>
+        </div>
+      </div>
     </div>
-  </aside>
+  </section>
 
   <!-- Category Grid Section -->
-  <section class="categories-content">
-    <p class="results-count">TOP CATEGORIES</p>
+  <section class="categories-content" style="width: 100%;">
+    <p class="results-count" style="margin-bottom: 1rem;">TOP CATEGORIES</p>
     
     <div class="categories-grid">
       <!-- 1. Graphic Novels -->
