@@ -413,3 +413,8 @@ body {
     display: flex;        /* Turns <p> into a flex container */
     align-items: center;  /* Centers content vertically */
 }
+
+/* --- Blog Preview Section --- */
+.blog-preview {
+    
+}
