@@ -378,3 +378,22 @@ body {
   cursor: pointer;
   display: inline-block;
 }
+
+/* Grid Styles */
+body {
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.item {
+    background-color: #fcf9ff;
+    padding: 80px 20px;
+    border-radius: 8px;
+}
