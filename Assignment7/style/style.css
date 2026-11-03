@@ -998,3 +998,38 @@ body {
 }
 
 /* --- End of Blog Preview Section --- */
+/* --- Grid Lesson Section --- */
+
+body {
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.item {
+    background-color: #fcf9ff;
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+}
+
+.item img {
+    padding: 0;
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 8px;
+}
+
+.item p {
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+}
