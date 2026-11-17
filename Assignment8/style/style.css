@@ -1232,7 +1232,7 @@ body {
   .social-table td {
     padding: 0.75rem 0.5rem;
   }
-  
+
   /* Footer Navigation (Grid Stack) */
   .footer-links-grid {
     display: flex;
@@ -1242,6 +1242,15 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  /* Make the filter search bar stack vertically on mobile */
+  .filter-grid-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Make the category cards grid stack into a single column on mobile */
+  .categories-grid {
+    grid-template-columns: 1fr !important;
+  }
   .footer-item {
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.6);
