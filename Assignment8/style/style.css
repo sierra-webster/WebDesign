@@ -6,8 +6,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Categories Elegant';
+    src: url('fonts/categories elegant demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* --- Global Styles --- */
-- {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -54,9 +61,9 @@ body {
   display: flex;
   align-items: center;
   gap: 10px; 
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-family: 'Categories Elegant', serif;
+  font-size: 1.5rem;
+  font-weight: normal;
   color: #ffffff;
   letter-spacing: 0.5px;
 }
