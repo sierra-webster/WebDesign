@@ -1041,13 +1041,14 @@ body {
   .video-cards-grid {
     grid-template-columns: repeat(2, 1fr); 
 }
-
 /* ==========================================
-   MOBILE RESPONSIVE STYLING
+   MOBILE & TABLET RESPONSIVE STYLING
    ========================================== */
+
+/* Base Fluid Adjustments for Small Screens */
 @media (max-width: 768px) {
 
-  /* 1. Slim Navigation */
+  /* 1. Stacked Navigation for Mobile */
   .nav-wrapper {
     position: sticky;
     top: 0;
@@ -1061,11 +1062,13 @@ body {
 
   .nav-bar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 0.85rem 1.25rem;
+    padding: 0.85rem 1rem;
+    gap: 0.6rem;
     box-sizing: border-box;
+    width: 100%;
   }
 
   .nav-brand {
@@ -1084,9 +1087,10 @@ body {
 
   .nav-links {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.4rem 0.8rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1095,10 +1099,10 @@ body {
   .nav-links li a {
     font-size: 0.8rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
     text-decoration: none;
     transition: color 0.2s ease;
-    padding: 0.4rem 0.6rem;
+    padding: 0.3rem 0.5rem;
     border-radius: 6px;
   }
   
@@ -1107,21 +1111,24 @@ body {
     color: #fff;
   }
 
+  /* 2. Main Content Spacing */
   main {
-    padding: 1.5rem 1.25rem;
+    padding: 1.25rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem; 
+    gap: 1.75rem; 
     box-sizing: border-box;
+    width: 100%;
   }
 
   header {
     text-align: center;
     margin-bottom: 0.5rem;
+    padding: 0 1rem;
   }
 
   header h1 {
-    font-size: 1.85rem;
+    font-size: 1.65rem;
     font-weight: 800;
     margin-bottom: 0.25rem;
     letter-spacing: -0.02em;
@@ -1131,18 +1138,19 @@ body {
   }
 
   header h2 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.65);
     font-weight: 400;
   }
 
   .banner-image-container {
-    width: 100%;
+    width: 92%;
+    margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 0.5rem;
+    padding: 0.4rem;
     box-sizing: border-box;
   }
 
@@ -1153,6 +1161,7 @@ body {
     border-radius: 8px;
   }
 
+  /* 3. Cards & Grids Collapse for Phones */
   .card-v2 {
     display: flex;
     flex-direction: column;
@@ -1162,32 +1171,31 @@ body {
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease;
   }
 
   .card-image {
     width: 100%;
-    max-height: 220px;
+    max-height: 200px;
     object-fit: cover;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 
   .card-body {
-    padding: 1.25rem;
+    padding: 1.15rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
   }
 
   .card-title {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 700;
     color: #fff;
     margin: 0;
   }
 
   .card-body p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.65);
     line-height: 1.4;
     margin: 0 0 0.5rem 0;
@@ -1200,77 +1208,73 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9rem;
-    padding: 0.75rem 1.2rem;
+    font-size: 0.85rem;
+    padding: 0.65rem 1rem;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(147, 51, 234, 0.3);
-    transition: all 0.2s ease;
   }
 
-  .card-button:active {
-    transform: scale(0.98);
-    opacity: 0.9;
+  /* 4. Tables & Sections */
+  .table-container {
+    overflow-x: auto;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  .social-table {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  .social-table th, 
+  .social-table td {
+    padding: 0.6rem 0.4rem;
+  }
+
+  /* 5. Filter Search & Categories Stacking */
+  .filter-grid-row {
+    grid-template-columns: 1fr !important;
+    gap: 0.85rem !important;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  /* 6. Force Info Page and Crew Grids to Single Column */
+  main section [style*="display: grid"] {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  /* 7. Footer Stacking */
   .footer-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.25rem;
-    padding: 3rem 1.5rem;
+    gap: 1rem;
+    padding: 2.5rem 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(14, 6, 22, 0.95);
     text-align: center;
   }
 
-  /* Make social tables scrollable and responsive on mobile */
-  .table-container {
-    overflow-x: auto;
-    width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
-  }
-
-  .social-table {
-    width: 100%;
-    font-size: 0.9rem;
-  }
-
-  .social-table th, 
-  .social-table td {
-    padding: 0.75rem 0.5rem;
-  }
-
-  /* Footer Navigation (Grid Stack) */
   .footer-links-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem 1.5rem;
-    margin-bottom: 0.5rem;
+    gap: 0.75rem 1rem;
   }
 
-  /* Make the filter search bar stack vertically on mobile */
-  .filter-grid-row {
-    grid-template-columns: 1fr !important;
-  }
-
-  /* Make the category cards grid stack into a single column on mobile */
-  .categories-grid {
-    grid-template-columns: 1fr !important;
-  }
   .footer-item {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    transition: color 0.2s ease;
   }
 
-  .footer-item:active {
-    color: #a855f7;
-  }
-
-  /* Remove vertical divider bar character */
   .footer-bar span.divider {
     display: none;
   }
@@ -1279,12 +1283,22 @@ body {
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.4);
     margin: 0;
-    margin-top: 0.5rem;
     line-height: 1.4;
   }
 }
 
-/* Keyboard Navigation  */
+/* Tablet Adjustments (Screens between 769px and 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    padding: 2rem;
+  }
+  
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Keyboard Navigation Accessibility */
 a:focus, button:focus, input:focus {
     outline: 2px solid #4a90e2;
     outline-offset: 2px;
@@ -1324,7 +1338,6 @@ a:focus, button:focus, input:focus {
     gap: 10px;
 }
 
-/* Responsive Typography with clamp() */
 .preview-date-flexible {
     font-family: Arial, Helvetica, sans-serif;
     font-size: clamp(0.7rem, 1.2cqi, 0.85rem);
@@ -1356,7 +1369,6 @@ a:focus, button:focus, input:focus {
     -webkit-line-clamp: 3;
 }
 
-/* Container Queries for Excerpt Length */
 @container (min-width: 600px) {
     .preview-post-excerpt-flexible {
         line-clamp: 5;
@@ -1370,7 +1382,6 @@ a:focus, button:focus, input:focus {
         -webkit-line-clamp: 8;
     }
 }
-
 
 /* ========================================
    UNIFIED GRID LAYOUT & RESPONSIVE ADJUSTMENTS
@@ -1408,7 +1419,6 @@ a:focus, button:focus, input:focus {
     border-radius: 8px;
 }
 
-/* Tablet & Mobile Media Query for Layout */
 @media (max-width: 700px) {
     .preview-showcase {
         grid-template-columns: 1fr;
@@ -1420,15 +1430,5 @@ a:focus, button:focus, input:focus {
     
     .layout-card-section {
         flex-direction: column;
-    }
-}
-
-/* ========================================
-   MOBILE FIX FOR INFO PAGE GRIDS
-   ======================================== */
-@media (max-width: 768px) {
-    /* Force multi-column grids to single column on mobile */
-    main section [style*="display: grid"] {
-        grid-template-columns: 1fr !important;
     }
 }
