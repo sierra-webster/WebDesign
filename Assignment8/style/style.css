@@ -1034,6 +1034,14 @@ body {
     align-items: center; 
 }
 
+/* ------ Tablet Responsive Styling ------ */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .categories-grid, 
+  .video-cards-grid {
+    grid-template-columns: repeat(2, 1fr); 
+}
+
 /* ==========================================
    MOBILE RESPONSIVE STYLING
    ========================================== */
@@ -1274,4 +1282,10 @@ body {
     margin-top: 0.5rem;
     line-height: 1.4;
   }
+}
+
+/* Keyboard Navigation  */
+a:focus, button:focus, input:focus {
+    outline: 2px solid #4a90e2;
+    outline-offset: 2px;
 }
