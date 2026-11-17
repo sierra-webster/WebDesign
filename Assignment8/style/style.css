@@ -1121,7 +1121,7 @@ body {
 }
 
 /* ------- DIGITAL DOWNLOAD SECTION STYLING --------*/
-  
+
 .digital-download-wrapper {
   width: 100%;
   margin: 4rem auto 2rem auto;
@@ -1190,8 +1190,14 @@ body {
   margin: 0 auto 24px auto;
 }
 
-.download-action {
+/* Button Group for Libby & Hoopla */
+.download-buttons-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 
 .download-btn {
@@ -1211,12 +1217,78 @@ body {
   transform: translateY(-2px);
 }
 
+.download-btn-secondary {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  padding: 14px 30px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.download-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateY(-2px);
+}
+
 .download-note {
   font-family: 'Manrope', sans-serif;
   font-style: italic;
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.55);
   margin: 0;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .digital-download-wrapper {
+    margin-top: 5rem;
+  }
+
+  .download-card {
+    padding: 60px 20px 30px 20px;
+  }
+
+  .download-title {
+    font-size: 1.75rem;
+  }
+
+  .download-desc {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .download-buttons-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .download-btn,
+  .download-btn-secondary {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+/* Mobile responsive stacking for buttons */
+@media (max-width: 600px) {
+  .download-buttons-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .download-btn,
+  .download-btn-secondary {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
 
 /* Mobile Responsive Adjustments */
