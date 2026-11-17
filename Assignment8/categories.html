@@ -1,10 +1,12 @@
-<!-- HTML document structure goes here -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Bookshelf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore book categories on The Bookshelf—from graphic novels and cozy mysteries to sci-fi, fantasy, and quick weekend reads.">
+    <title>Main Bookshelf - The Bookshelf</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="images/your-favicon.png">
 </head>
 
 <body>
@@ -46,7 +48,7 @@
     <div class="filter-card" style="padding: 1.5rem 2rem;">
       <span class="sub-label" style="margin-bottom: 1rem; display: block;">REFINE YOUR SEARCH</span>
       
-      <div style="display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 1rem; align-items: end;">
+      <div class="filter-grid-row" style="display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 1rem; align-items: end;">
         <!-- Search Input -->
         <div class="filter-group" style="margin: 0;">
           <label for="category-search" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Search Categories</label>
@@ -218,9 +220,13 @@
   <a href="categories.html" class="footer-item">Main Bookshelf</a> |
   <a href="mailto:something@gmail.com" class="footer-item">Let's Talk: something@gmail.com</a>
   <div class="footer">
-    <p>&copy; 2026 The Bookshelf. All rights reserved.</p>
+    <p>&copy; <span id="year"></span> The Bookshelf. All rights reserved.</p>
   </div>
 </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>

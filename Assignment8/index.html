@@ -1,10 +1,12 @@
-<!-- HTML document structure goes here -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Bookshelf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to The Bookshelf. Discover books, graphic novels, and book-to-film adaptations matched to your mood and interests. No judgment, just reading.">
+    <title>The Bookshelf - A Book for Every Mood</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="images/your-favicon.png">
 </head>
 
 <body>
@@ -119,9 +121,13 @@
   <a href="categories.html" class="footer-item">Main Bookshelf</a> |
   <a href="mailto:something@gmail.com" class="footer-item">Let's Talk: something@gmail.com</a>
   <div class="footer">
-    <p>&copy; 2026 The Bookshelf. All rights reserved.</p>
+    <p>&copy; <span id="year"></span> The Bookshelf. All rights reserved.</p>
   </div>
 </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
