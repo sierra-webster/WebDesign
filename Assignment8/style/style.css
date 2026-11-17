@@ -988,7 +988,160 @@ body {
     color: #8fafa7;
     margin-top: 10px;
 }
+/* --------------- Newsletter Form Section --------------- */
 
+.newsletter-wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 4rem auto 2rem auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.newsletter-card {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 50px 40px 35px 40px; /* Leave space at the top for badge overlap */
+  background: rgba(38, 20, 56, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  box-sizing: border-box;
+}
+
+/* Overlapping Circular Badge with Glowing Gradient */
+.newsletter-badge-container {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #a855f7, #3b82f6);
+  padding: 4px; /* Creates the outer glowing border */
+  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.35);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-badge {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #25223c;
+}
+
+.newsletter-content {
+  margin-top: 15px;
+}
+
+.newsletter-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.newsletter-sub {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+}
+
+/* Horizontal input on desktop */
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto 16px auto;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #1a1a1a;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.newsletter-input::placeholder {
+  color: #64748b;
+}
+
+.newsletter-btn {
+  background-color: #3b82f6;
+  background-image: linear-gradient(135deg, #6366f1, #3b82f6);
+  color: #ffffff;
+  padding: 14px 30px;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.newsletter-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.35);
+}
+
+.newsletter-footer-text {
+  font-family: 'Manrope', sans-serif;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+/* Mobile responsive collapse */
+@media (max-width: 768px) {
+  .newsletter-wrapper {
+    margin-top: 5rem; /* Additional space for top badge margin */
+  }
+
+  .newsletter-card {
+    padding: 60px 20px 30px 20px;
+  }
+
+  .newsletter-title {
+    font-size: 1.80rem;
+  }
+
+  .newsletter-sub {
+    font-size: 0.90rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .newsletter-input, 
+  .newsletter-btn {
+    width: 100%;
+    padding: 12px 20px;
+  }
+}
 /* --- End of Blog Preview Section --- */
 /* --- Grid Lesson Section --- */
 
