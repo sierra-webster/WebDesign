@@ -1215,6 +1215,24 @@ body {
     text-align: center;
   }
 
+  /* Make social tables scrollable and responsive on mobile */
+  .table-container {
+    overflow-x: auto;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .social-table {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .social-table th, 
+  .social-table td {
+    padding: 0.75rem 0.5rem;
+  }
+  
   /* Footer Navigation (Grid Stack) */
   .footer-links-grid {
     display: flex;
