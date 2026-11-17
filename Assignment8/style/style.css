@@ -1039,13 +1039,6 @@ body {
    ========================================== */
 @media (max-width: 768px) {
 
-  body {
-    background: linear-gradient(135deg, #120A2A 0%, #30113B 50%, #4B243B 100%);
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  }
-
   /* 1. Slim Navigation */
   .nav-wrapper {
     position: sticky;
