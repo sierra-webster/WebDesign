@@ -7,7 +7,7 @@
 }
 
 /* --- Global Styles --- */
-* {
+- {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -736,14 +736,6 @@ h2 {
     box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.35);
 }
 
-/* Hover state: switches to dark purple glass */
-.cat-card:hover {
-    transform: translateY(-4px);
-    background: rgba(38, 20, 56, 0.75);
-    border-color: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.35);
-}
-
 .cat-card h3 {
     margin: 0;
     font-size: 1.25rem;
@@ -1040,7 +1032,9 @@ body {
   .categories-grid, 
   .video-cards-grid {
     grid-template-columns: repeat(2, 1fr); 
+  }
 }
+
 /* ==========================================
    MOBILE & TABLET RESPONSIVE STYLING
    ========================================== */
@@ -1248,6 +1242,23 @@ body {
   main section [style*="display: grid"] {
     grid-template-columns: 1fr !important;
     gap: 1.25rem !important;
+  }
+
+  /* --- Mobile Fix for Categories Layout & Sidebar --- */
+  .categories-page-wrapper {
+    flex-direction: column !important;
+    padding: 0 0.75rem !important;
+    gap: 1.5rem !important;
+  }
+
+  .filter-sidebar {
+    width: 100% !important;
+    position: static !important;
+    top: auto !important;
+  }
+
+  .filter-card {
+    padding: 1rem !important;
   }
 
   /* 7. Footer Stacking */
