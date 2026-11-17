@@ -1422,3 +1422,13 @@ a:focus, button:focus, input:focus {
         flex-direction: column;
     }
 }
+
+/* ========================================
+   MOBILE FIX FOR INFO PAGE GRIDS
+   ======================================== */
+@media (max-width: 768px) {
+    /* Force multi-column grids to single column on mobile */
+    main section [style*="display: grid"] {
+        grid-template-columns: 1fr !important;
+    }
+}
