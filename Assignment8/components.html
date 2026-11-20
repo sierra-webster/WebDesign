@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!-- ------------------------------------------------ -->
 <!-- ------ CONTENTS ------ -->
 <!-- ------------------------------------------------ -->
@@ -25,7 +26,6 @@ EXTRAS --------------------- Miscellaneous components, experiments
 <!-- ------------------------------------------------ -->
 <!-- ------ METADATA & PAGE SETUP ------ -->
 <!-- ------------------------------------------------ -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -332,19 +332,17 @@ EXTRAS --------------------- Miscellaneous components, experiments
       </div>
 
       <!-- Pastel Category Card Variations -->
-
-        <article class="cat-card pastel-purple">
-          <div class="badge-circle">✨</div>
-          <span class="card-tag">BOOKS CATEGORY</span>
-          <h3>Young Adult</h3>
-          <p>Description of the book category can go here.</p>
-          <div class="card-pills">
-            <span class="pill">Tag One:...</span>
-            <span class="pill">Tag Two:...</span>
-          </div>
-          <a href="#" class="card-link">View category details &rarr;</a>
-        </article>
-      </div>
+      <article class="cat-card pastel-purple">
+        <div class="badge-circle">✨</div>
+        <span class="card-tag">BOOKS CATEGORY</span>
+        <h3>Young Adult</h3>
+        <p>Description of the book category can go here.</p>
+        <div class="card-pills">
+          <span class="pill">Tag One:...</span>
+          <span class="pill">Tag Two:...</span>
+        </div>
+        <a href="#" class="card-link">View category details &rarr;</a>
+      </article>
 
       <!-- Two-Column Crew Profile Cards (from info.html) -->
       <div class="table-container" style="max-width: 650px;">
@@ -364,8 +362,6 @@ EXTRAS --------------------- Miscellaneous components, experiments
 
           <!-- Crew Member 2: Cleo -->
           <!-- Crew Member 3: John/Jane Doe -->
-            </p>
-          </div>
         </div>
       </div>
 
@@ -456,14 +452,14 @@ EXTRAS --------------------- Miscellaneous components, experiments
           <div class="filter-grid-row" style="display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 1rem; align-items: end;">
             <!-- Search Input -->
             <div class="filter-group" style="margin: 0;">
-              <label for="category-search" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Search Categories</label>
-              <input type="text" id="category-search" class="input-field" placeholder="Try fantasy, movies, quick..." style="margin: 0;">
+              <label for="filter-category-search" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Search Categories</label>
+              <input type="text" id="filter-category-search" class="input-field" placeholder="Try fantasy, movies, quick..." style="margin: 0;">
             </div>
 
             <!-- Genre Select -->
             <div class="filter-group" style="margin: 0;">
-              <label for="genre-select" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Genre Preference</label>
-              <select id="genre-select" class="input-field" style="margin: 0; height: 38px;">
+              <label for="filter-genre-select" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Genre Preference</label>
+              <select id="filter-genre-select" class="input-field" style="margin: 0; height: 38px;">
                 <option value="all" style="color: #1a1a1a;">All Genres</option>
                 <option value="fiction" style="color: #1a1a1a;">Fiction</option>
                 <option value="nonfiction" style="color: #1a1a1a;">Non-Fiction</option>
@@ -472,8 +468,8 @@ EXTRAS --------------------- Miscellaneous components, experiments
 
             <!-- Length Select -->
             <div class="filter-group" style="margin: 0;">
-              <label for="length-select" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Book Length</label>
-              <select id="length-select" class="input-field" style="margin: 0; height: 38px;">
+              <label for="filter-length-select" style="display: block; font-size: 0.8rem; margin-bottom: 0.4rem; color: rgba(255, 255, 255, 0.8);">Book Length</label>
+              <select id="filter-length-select" class="input-field" style="margin: 0; height: 38px;">
                 <option value="all" style="color: #1a1a1a;">Any Length</option>
                 <option value="short" style="color: #1a1a1a;">Under 200 pages</option>
                 <option value="medium" style="color: #1a1a1a;">200–400 pages</option>
