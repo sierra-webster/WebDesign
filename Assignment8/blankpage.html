@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A starter template page for The Bookshelf featuring shared navigation, header banner, card component, and footer.">
+<meta name="author" content="Sierra Webster">
+<meta name="theme-color" content="#261438">
+<meta name="robots" content="index, follow">
+<title>Blank Template - The Bookshelf</title>
+<link rel="stylesheet" href="style/style.css?v=2">
+<link rel="icon" type="image/png" href="images/your-favicon.png">
+</head>
+
+<body>
+<!-- ------------------------------------------------ -->
+<!-- ------------------- TEST AREA---------------------- -->
+<!-- ------------------------------------------------ -->
+
+
+
+<!-- ------------------------------------------------ -->
+<!-- ------------------- NAV ---------------------- -->
+<!-- ------------------------------------------------ -->
+
+<div class="nav-wrapper">
+<nav class="nav-bar">
+<div class="nav-brand">
+<img src="images/logobook.png" alt="Star Icon" class="nav-icon">
+The Bookshelf
+</div>
+
+
+<!-- Center Navigation Links -->
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="categories.html">Main Bookshelf</a></li>
+<li><a href="info.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+
+
+<!-- ------------------------------------------------ -->
+<!-- ------------------- MAIN CONTENT ---------------- -->
+<!-- ------------------------------------------------ -->
+<main>
+<!-- ------------------- HEADER---------------------- -->
+<header>
+<h1>The Bookshelf</h1>
+<h2>A Book for Every Mood</h2>
+</header>
+
+<!-- Banner Image Placed Just Below Header -->
+<div class="banner-image-container">
+<img src="images/bookshelf.png" alt="The Bookshelf Banner Illustration" class="header-banner-img">
+</div>
+
+<!-- ------------------- CARD COMPONENT---------------------- -->
+<div class="card-v2">
+<img src="images/sierraminesinger.jpeg" alt="Sierra Webster" class="card-image">
+<div class="card-body">
+<h3 class="card-title">Sierra Webster</h3>
+<p>This is a card component</p>
+<a href="#" class="card-button">Learn More</a>
+</div>
+</div>
+</main>
+
+<!-- ------------------- FOOTER ---------------------- -->
+
+<footer class="footer-bar">
+<a href="info.html" class="footer-item">Contact</a> |
+<a href="about.html" class="footer-item">About Us</a> |
+<a href="index.html" class="footer-item">Home</a> |
+<a href="categories.html" class="footer-item">Main Bookshelf</a> |
+<a href="mailto:info@thebookshelf.org" class="footer-item">Let's Talk: info@thebookshelf.org</a>
+<div class="footer">
+<p>&copy; <span id="year"></span> The Bookshelf. All rights reserved.</p>
+</div>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
